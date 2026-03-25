@@ -1,0 +1,202 @@
+body{
+    background: linear-gradient(to right, rgb(36, 132, 89),white);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        color:black;
+    }  
+    .text-special{
+        color: purple;
+        }
+        /*bar navigation*/
+        .navbar{
+            background-color: rgb(13, 141, 57);
+            padding: 10px;
+            width: 60%;
+            margin: auto;
+            border-radius: 10px;
+            }
+            .navbar ul{
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .navbar li{
+                margin: 0 20px;
+                }
+                .navbar a{
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    }
+                    /* Effet survol*/
+                    .navbar a:hover{
+                        background-color: rgb(216, 59, 161);
+                        color: black ;
+                        }               
+                           /*image de profil*/
+                  .photo{ 
+                    width: 20%;   
+                    height: 20%;
+                    border-radius: 50%;  
+                    border: 1px solid;
+                  }
+                     /*Compétences*/ 
+                     .skills{
+        width: 80%;
+        margin: 50px auto;
+        background: yellowgreen;
+        padding: 30px;
+        border-radius: 10px;
+    }
+        .skill{
+            margin: 20px 0;
+        }
+        .skill p{
+            color: white;
+            margin-bottom: 5px;
+        }
+        .progress{
+            height: 100%;
+            font-size: 12px;
+            color: white;
+            line-height: 10px;
+            text-align: right;
+        }
+        .progress-bar{
+            width: 100%;
+            height: 20px;
+            background: rgba(red, green, blue, alpha);
+            border-radius: 10px;
+        }
+        .html{
+            background:linear-gradient(to right,blue,purple);
+            width: 80%;
+        }
+        .css{
+            width: 60%;
+            background:gray;
+            }
+        .js{
+            width: 35%;
+            background: gold;
+            color: black;
+        }
+        .php{
+            width: 45%;
+            background: #0c9176;
+            color: black;
+            }
+            .langue{
+                width: 90%;
+                background: palevioletred;
+                color: black;
+            }
+            .design{
+                width: 60%;
+                background: #8ab108;
+                color: black;
+            }
+            .travail{
+                width:75% ;
+                background:gray;
+                color: black;
+                }
+             .profil{
+                width: 60%;
+                border: 1px solid;
+                border-radius: 50%;
+                }
+                #contact{
+                padding: 40px;
+                background-color: rgb(16, 94, 69);
+                }
+                .contact-container{
+                    display: flex;
+                    gap: 30px;
+                    flex-wrap:wrap ;
+                    }
+                    form{
+                        display: flex;
+                        flex-direction: column;
+                        width: 300px;
+                        }
+                        label{
+                            margin-top: 10px;
+                            font-weight: bold;
+                            }
+                input,select,textarea{
+                    padding: 8px;
+                    margin-top: 5px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    }
+                    button{
+                        margin-top: 15px;
+                        padding: 10px;
+                        background-color: rgb(137, 173, 139);
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        }
+                    button:hover {
+                        background-color:#0d390e;
+                        }
+                        .contact-links{
+                            margin-top: 20px;
+                            }
+               /*PROJETS*/
+               .cards{
+                display: flex;
+                gap: 20px;
+                padding: 40px;
+                }
+                .card{
+                    background-color: #176152;
+                    padding: 20px;
+                    width: 150px;
+                    transition: 0.3s;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100px;
+                        border-radius: 20px;
+                        object-fit: cover;
+                        }
+                        /* Parcours et Formation*/
+                        .timeline{
+                            background-color: #156e18;
+                            color: white;
+                            padding: 20px;
+                            }
+                            footer{
+                                background-color: #1a5a1b;
+                                color: white;
+                                padding: 20px;
+                                }
+                                
+                            
+
+
+
+                        
+
+            
+
+
+
+        
+
+        
+        
+
+
+    
+
+ 
